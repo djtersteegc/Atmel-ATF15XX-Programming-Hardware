@@ -10,9 +10,9 @@ First I needed a case.  Simple two piece model that screws together with two M3x
 
 Next I wanted to create a programming adapter than takes either a PLCC44 or PLCC84 adapter board to allow for easy used chip testing and programming. I had bought some cheap ATF1508AS's from AliExpress and a couple of them were JTAG locked so I needed a way to apply 12V to the OE1 pin to restore JTAG functionality. I had designed a similar board for [Xilinx XC9500](https://github.com/djtersteegc/xilinx-xc9500xl-programming-adapter) CPLD's, so this was a variation on that theme.
 
-Atmel-ATF15XX-Programming-Adapter Schematic
+[Atmel-ATF15XX-Programming-Adapter Schematic](https://djtersteegc.github.io/Atmel-ATF15XX-Programming-Hardware/Atmel-ATF15XX-Programming-Adapter-Schematic-v1.0.pdf)
 
-Atmel-ATF15XX-Programming-Adapter BOM
+[Atmel-ATF15XX-Programming-Adapter BOM](https://djtersteegc.github.io/Atmel-ATF15XX-Programming-Hardware/Atmel-ATF15XX-Programming-Adapter-ibom-v1.0.html)
 
 ![Atmel-ATF15XX-Programming-Adapter](docs/Atmel-ATF15XX-Programming-Adapter.jpg)
 
@@ -26,11 +26,11 @@ The bottom left locking push button controls board power, and the top right cont
 
 I designed three adapter PCB's for both normal PLCC sockets and a PLCC84 test socket.  
 
-[PLCC-44-Socket-Adapter](PLCC-44-Socket-Adapter)	Schematic	BOM
+[PLCC-44-Socket-Adapter](PLCC-44-Socket-Adapter)	[Schematic](https://djtersteegc.github.io/Atmel-ATF15XX-Programming-Hardware/PLCC-44-Socket-Adapter-Schematic-v1.0.pdf)	[BOM](https://djtersteegc.github.io/Atmel-ATF15XX-Programming-Hardware/PLCC-44-Socket-Adapter-ibom-v1.0.html)
 
-[PLCC-84-Socket-Adapter](PLCC-84-Socket-Adapter)	Schematic	BOM
+[PLCC-84-Socket-Adapter](PLCC-84-Socket-Adapter)	[Schematic](https://djtersteegc.github.io/Atmel-ATF15XX-Programming-Hardware/PLCC-84-Socket-Adapter-Schematic-v1.0.pdf)	[BOM](https://djtersteegc.github.io/Atmel-ATF15XX-Programming-Hardware/PLCC-84-Socket-Adapter-ibom-v1.0.html)
 
-[PLCC-84-Test-Socket-Adapter](PLCC-84-Test-Socket-Adapter)	Schematic	BOM
+[PLCC-84-Test-Socket-Adapter](PLCC-84-Test-Socket-Adapter)	[Schematic](https://djtersteegc.github.io/Atmel-ATF15XX-Programming-Hardware/PLCC-84-Test-Socket-Adapter-Schematic-v1.0.pdf)	[BOM](https://djtersteegc.github.io/Atmel-ATF15XX-Programming-Hardware/PLCC-84-Test-Socket-Adapter-ibom-v1.0.html)
 
 The PLCC84 test socket I used was this (genuine?) Yamaichi IC120-0844-303 socket without PCB that I purchased from [AliExpress](https://www.aliexpress.us/item/3256806424159192.html).  Make sure you get this model since there are other Yamaichi IC120-0844-XXX models with the "less compatible" pin pattern that won't fit.
 
