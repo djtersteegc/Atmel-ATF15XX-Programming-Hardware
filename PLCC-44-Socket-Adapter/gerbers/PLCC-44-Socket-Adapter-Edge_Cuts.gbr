@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.7*%
+%TF.CreationDate,2025-02-20T01:51:32-06:00*%
+%TF.ProjectId,PLCC-44-Socket-Adapter,504c4343-2d34-4342-9d53-6f636b65742d,v1.0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.7) date 2025-02-20 01:51:32*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X97028000Y-64135000D02*
+X118872000Y-64135000D01*
+X118872000Y-121285000D01*
+X97028000Y-121285000D01*
+X97028000Y-64135000D01*
+M02*
