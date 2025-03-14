@@ -48,7 +48,7 @@ Also works great for programming Max 7000's devices that share a similar pinout.
 
 I spent a bit of time reading through this [thread](https://www.forum64.de/index.php?thread/94552-atf1504as-cpld-f%C3%BCr-fe3-%C3%BCber-jtag-programmieren/) on Forum64 , and the efforts there to get various generic FTDI boards recognized by Atmel's [ATMISP](https://www.microchip.com/en-us/development-tool/atmisp) programming software.  At it's core the ATDH1150USB is an FTDI2232D with a config EEPROM to identify itself to ATMISP, level converters on the JTAG lines to support 5V and 3.3V ATF15xx chips, and some status LED's.  Here's the block diagram from the manual.
 
-![image-20250312204432009](E:\Vintage Computers\Other\Atmel-ATF15XX-Programming-Hardware\docs\image-20250312204432009.png)
+![image-20250312204432009](docs/image-20250312204432009.png)
 
 Several hours of reverse engineering and I was able to create a functional equivalent.  Went with a USB-C port since it's 2025 and dropped the JTAG-X connector to keep the board size down.
 
