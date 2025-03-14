@@ -20,7 +20,7 @@ JP1 selected whetherthe ATF15xx will be powered by the (optional) onboard VRM's 
 
 JP2 selects whether you'll see 5V or 3.3V volts at the ATF15xx.  When using the VRM's, make sure the supply voltage is a couple of volts higher, but less than the 12V being output by the boost convertor.
 
-The bottom left locking push button controls board power, and the top right controls if +12V is routed to OE1 on the ATF15xx. When needing to executethis to reenable JTAG, make sure to apply VCC first, then 12V (top right button), program the chip, power off 12V, and then power off VCC. You may initially get a verify error on this program attempt, but once you repower the chip and try again, everything should work normally.
+The bottom left locking push button controls board power, and the top right controls if +12V is routed to OE1 on the ATF15xx. When needing to execute this to reenable JTAG, make sure to apply VCC first, then 12V (top right button), program the chip, power off 12V, and then power off VCC. You may initially get a verify error on this program attempt, but once you repower the chip and try again, everything should work normally.
 
 ![PCBs](docs/PCBs.jpg)
 
@@ -54,7 +54,7 @@ Several hours of reverse engineering and I was able to create a functional equiv
 
 ![ATF15XX-Programmer](docs/ATF15XX-Programmer.jpg)
 
-Worked great with ATMISP v7.3 on Windows 10.  Similar to the ATDH1150USB the green LED will light when connected to ATMISP, both green and red LED's when successfully executing an operation, and the reb LED only when an error occurs.
+Worked great with ATMISP v7.3 on Windows 10.  Similar to the ATDH1150USB the green LED will light when connected to ATMISP, both green and red LED's when successfully executing an operation, and the red LED only when an error occurs.
 
 ![ATF15XX-Programmer-Connected](docs/ATF15XX-Programmer-Connected.jpg)
 
